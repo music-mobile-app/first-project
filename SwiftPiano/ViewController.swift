@@ -7,11 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    let pianoKeys = ["C3","C#","D","D#","E","F","F#","G","G#","A","A#","B","B#"]
+    var audioPlayers:[AVAudioPlayer] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var audioPlayer:AVAudioPlayer!
+        
+        for key in pianoKeys {
+            
+            let pianoSoundURL = URL(fileURLWithPath: key + ".mp3")
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: pianoSoundURL)
+            } catch let error as NSError {
+                audioPlayer = nil
+            }
+            audioPlayer.prepareToPlay()
+            audioPlayers.append(audioPlayer)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
