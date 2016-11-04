@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         var audioPlayer:AVAudioPlayer!
         
         for key in pianoKeys {
+            let audioPath = Bundle.main.path(forResource: "C3", ofType:"mp3")!
+            let pianoSoundURL = URL(fileURLWithPath: audioPath)
             
-            let pianoSoundURL = URL(fileURLWithPath: key + ".mp3")
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: pianoSoundURL)
             } catch let error as NSError {
@@ -30,6 +31,12 @@ class ViewController: UIViewController {
             audioPlayers.append(audioPlayer)
         }
         // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    @IBAction func playkey(sender: UIButton){
+        let keynum = sender.tag
+        audioPlayers[keynum].currentTime = 0
+        audioPlayers[keynum].play()
     }
 
     override func didReceiveMemoryWarning() {
