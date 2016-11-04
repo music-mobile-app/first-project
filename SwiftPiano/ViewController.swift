@@ -11,7 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    let pianoKeys = ["C3","C#","D","D#","E","F","F#","G","G#","A","A#","B","B#"]
+    let pianoKeys = ["C3","C#","D","D#","E","F","F#","G","G#","A","A#","B","C4"]
     var audioPlayers:[AVAudioPlayer] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         var audioPlayer:AVAudioPlayer!
         
         for key in pianoKeys {
-            let audioPath = Bundle.main.path(forResource: "C3", ofType:"mp3")!
+            let audioPath = Bundle.main.path(forResource: "sound/" + key, ofType:"mp3")!
             let pianoSoundURL = URL(fileURLWithPath: audioPath)
             
             do {
