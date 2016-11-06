@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SE8-Ra-P2h">
                                 <rect key="frame" x="42" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="C3" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="CXg-47-jYW"/>
                                 </connections>
@@ -32,7 +32,7 @@
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-av-5i3">
                                 <rect key="frame" x="99" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="D" backgroundImage="white.jpg"/>
+                                <state key="normal" title="D" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="3vW-RL-6t4"/>
                                 </connections>
@@ -40,7 +40,7 @@
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muF-KJ-Zpo">
                                 <rect key="frame" x="158" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="E" backgroundImage="white.jpg"/>
+                                <state key="normal" title="E" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="iVf-RU-C3L"/>
                                 </connections>
@@ -48,7 +48,7 @@
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejL-oY-Z0k">
                                 <rect key="frame" x="215" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="F" backgroundImage="white.jpg"/>
+                                <state key="normal" title="F" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="SGT-hd-T1Z"/>
                                 </connections>
@@ -56,7 +56,7 @@
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gC-bA-roV">
                                 <rect key="frame" x="273" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="G" backgroundImage="white.jpg"/>
+                                <state key="normal" title="G" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="bEO-GH-eDb"/>
                                 </connections>
@@ -64,7 +64,7 @@
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNi-Tf-5wN">
                                 <rect key="frame" x="329" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="A" backgroundImage="white.jpg"/>
+                                <state key="normal" title="A" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="Nco-bf-ODh"/>
                                 </connections>
@@ -72,7 +72,7 @@
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNM-qm-MU3">
                                 <rect key="frame" x="386" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="B" backgroundImage="white.jpg"/>
+                                <state key="normal" title="B" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="I40-NA-f4v"/>
                                 </connections>
@@ -80,7 +80,7 @@
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKu-Rg-580">
                                 <rect key="frame" x="445" y="38" width="60" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C4" backgroundImage="white.jpg"/>
+                                <state key="normal" title="C4" backgroundImage="white"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="3XN-3q-rPQ"/>
                                 </connections>
@@ -88,7 +88,7 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjY-fh-ecd">
                                 <rect key="frame" x="77" y="38" width="46" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C#" backgroundImage="black.jpg"/>
+                                <state key="normal" title="C#" backgroundImage="black"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="ZkU-Vu-E7F"/>
                                 </connections>
@@ -96,7 +96,7 @@
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZT-u9-ExQ">
                                 <rect key="frame" x="242" y="38" width="61" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="F#" backgroundImage="black.jpg"/>
+                                <state key="normal" title="F#" backgroundImage="black"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="T0o-SO-hXE"/>
                                 </connections>
@@ -104,7 +104,7 @@
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUe-nx-xNG">
                                 <rect key="frame" x="310" y="38" width="46" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="G#" backgroundImage="black.jpg"/>
+                                <state key="normal" title="G#" backgroundImage="black"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="Zoh-Li-ONc"/>
                                 </connections>
@@ -112,7 +112,7 @@
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoB-eM-XVy">
                                 <rect key="frame" x="364" y="38" width="46" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="A#" backgroundImage="black.jpg"/>
+                                <state key="normal" title="A#" backgroundImage="black"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="Daa-0R-CPf"/>
                                 </connections>
@@ -120,7 +120,7 @@
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6F-OD-e6M">
                                 <rect key="frame" x="138" y="38" width="46" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="D#" backgroundImage="black.jpg"/>
+                                <state key="normal" title="D#" backgroundImage="black"/>
                                 <connections>
                                     <action selector="playkeyWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="5uR-YE-Gmh"/>
                                 </connections>
@@ -137,7 +137,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="black.jpg" width="40" height="140"/>
-        <image name="white.jpg" width="60" height="230"/>
+        <image name="black" width="40" height="140"/>
+        <image name="white" width="60" height="230"/>
     </resources>
 </document>
