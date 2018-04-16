@@ -11,6 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    // コメント追加
     let pianoKeys = ["C3","C#","D","D#","E","F","F#","G","G#","A","A#","B","C4"]
     var audioPlayersAif:[AVAudioPlayer] = []
     var audioPlayersMp3:[AVAudioPlayer] = []
